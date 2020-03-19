@@ -4,12 +4,21 @@
 var wifi4euTimerStart = Date.now();
 var wifi4euNetworkIdentifier = '123e4567-e89b-12d3-a456-426655440000';
 var wifi4euLanguage = 'en';
-var selftestModus = true;
+
 </script>
 <script type="text/javascript" src="https://collection.wifi4eu.ec.europa.eu/wifi4eu.min.js"></script>
 
 </head>
 <body>
-<img id="wifi4eubanner">
+
+
+    <div id="identityContainer" class="identity-container">   
+        <img id="wifi4eubanner" class="identity-image">
+        <br>
+        <button onclick="login();" class="button">Log in to WiFi</button>
+        <p>Terms of use here.</p>
+    </div>
+	
+
 </body>
 </html>
